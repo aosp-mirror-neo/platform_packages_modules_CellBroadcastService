@@ -182,4 +182,24 @@ public class CellBroadcastMetrics {
     public static final int ERRTYPE_FOUND_MULTIPLECBRPKGS =
             CellBroadcastModuleStatsLog
                     .CELL_BROADCAST_MODULE_ERROR_REPORTED__TYPE__ERROR_FOUND_MULTIPLE_CBR_PKGS;
+
+    // =========================================================================
+    // STUB CONSTANTS FOR 25Q2 BACKPORT COMPATIBILITY
+    // =========================================================================
+    public static final int ERRTYPE_TRANSLATION_NONE = 0;
+    public static final int ERRTYPE_TRANSLATION_UNKNOWN = 0;
+    public static final int ERRTYPE_TRANSLATION_NOT_APPLICABLE = 0;
+
+    public static final int ERRTYPE_MAP_NONE = 0;
+    public static final int ERRTYPE_MAP_UNKNOWN = 0;
+    public static final int ERRTYPE_MAP_NO_MESSAGE = 1;
+    public static final int ERRTYPE_MAP_NO_GEOMETRY_DATA = 2;
+    public static final int ERRTYPE_MAP_URI_ENCODING_FAILED = 3;
+    public static final int ERRTYPE_MAP_CORE_ACTIVITY_START_FAILED = 4;
+    public static final int ERRTYPE_MAP_CORE_ACTIVITY_NOT_FOUND = 5;
+
+    public static final int GEO_DATA_TYPE_UNKNOWN = 0;
+    public static final int GEO_DATA_TYPE_CIRCLE = 1;
+    public static final int GEO_DATA_TYPE_POLYGON = 2;
+    public static final int GEO_DATA_TYPE_MULTIPLE = 3;
 }
